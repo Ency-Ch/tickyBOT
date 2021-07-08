@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.6s;
+}
+
+.navbar {
+  background-color: #225470;
+  margin-top: 0;
+}
+
+.navitems {
+  display: flex;
+  /*display: inline-block;*/
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.navitems,
+a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: gold;
+  font-size: 20px;
+}
+
+navitems,
+a:hover {
+  color: white;
+}
+
+.img1 {
+  width: 50px;
+  height: 50px;
+}
+
+.tickybot {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  background-color: skyblue;
+  margin: 0;
+}
+
+.heading1 {
+  font-size: 70px;
+}
+
+.paragraph1 {
+  font-size: 25px;
+  color: white;
+}
+.container1 {
+  margin: 100px;
+  font-size: 20px;
+}
+.container1,
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.btn1 {
+  text-align: center;
+  height: 60px;
+  width: 250px;
+  font-size: 30px;
+  background-color: white;
+  margin: 10px;
+  padding: 2px;
+  color: grey;
+  border: none;
+  border-radius: 3%;
+}
+
+.rotate button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.rotate img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.rotate img {
+  transition: transform 0.7s ease-in;
+}
+
+.rotate img:hover {
+  transform: rotate(180deg);
+}
+
+.container2 {
+  margin: 100px;
+  margin-top: 150px;
+}
+
+.what_is_tickyBot {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  background-color: white;
+  padding-bottom: 50px;
+  font-size: 20px;
+  margin: 100px;
+  margin-bottom: 0;
+}
+
+.container3 {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 35px;
+}
+
+.container3::after {
+  content: "";
+  height: 2px;
+  width: 60%;
+  position: absolute;
+  background: skyblue;
+  bottom: 1px;
+  left: 20%;
+}
+.container3a {
+  text-align: center;
+}
+
+.container6 {
+  /*text-align: center;*/
+  margin-top: 0px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  padding-top: 0px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.light-green {
+  background-color: lightgreen;
+  height: 900px;
+}
+.the-grid {
+  display: grid;
+  /*grid-template-columns: 0.5fr 0.5fr 0.5fr;*/
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.p1 {
+  background-color: #225470;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 120%;
+  margin-top: 100px;
+  height: 400px;
+}
+.img2 {
+  width: 300px;
+  padding-left: 60px;
+}
+.p2 {
+  background-color: white;
+  height: 100px;
+  font-size: 21px;
+  text-align: center;
+}
+
+.how_it_works {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 35px;
+}
+.how_it_works ::after {
+  content: "";
+  height: 2px;
+  width: 60%;
+  position: absolute;
+  background: skyblue;
+  bottom: 1px;
+  left: 20%;
+}
+.how_it_worksA {
+  text-align: center;
+}
+
+.special-characters {
+  background-color: lightgrey;
+  color: red;
+}
+
+.last-section1 {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 35px;
+}
+
+.last-section1::after {
+  content: "";
+  height: 2px;
+  width: 60%;
+  position: absolute;
+  background: skyblue;
+  bottom: 1px;
+  left: 20%;
+}
+
+.last-section1A {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.last-section2 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.btn2 {
+  text-align: center;
+  height: 60px;
+  width: 250px;
+  font-size: 30px;
+  background-color: #225470;
+  margin: 10px;
+  padding: 2px;
+  color: grey;
+  border: none;
+  border-radius: 3%;
+}
+.btn2a button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.btn2a {
+  text-align: center;
+}
+
+.btn2a img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.btn2a img {
+  transition: transform 0.7s ease-in;
+}
+
+.btn2a img:hover {
+  transform: rotate(180deg);
+}
+
+.img3 {
+  width: 40px;
+  background-color: #225470;
+}
+
+.last-section3 {
+  margin: 40px;
+  text-align: center;
+  font-size: 30px;
+}
+.footer {
+  text-align: center;
+  background-color: #225470;
+  height: 75px;
+  padding: 20px;
+}
+
+#up_button {
+  width: 50px;
+  height: 50px;
+  background-color: gold;
+  margin-left: 90%;
+  border-radius: 2px;
+}
+#up_button:hover {
+  cursor: pointer;
+}
