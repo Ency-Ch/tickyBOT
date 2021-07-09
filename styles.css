@@ -285,3 +285,8 @@ h1 {
 #up_button:hover {
   cursor: pointer;
 }
+
+#p2-link {
+  color: blue;
+  cursor: pointer;
+}
