@@ -57,7 +57,7 @@ a:hover {
 .container1 {
   margin: 100px;
   font-size: 20px;
-  animation: run 1s ease-in-out;
+  animation: run 5s;
 }
 .container1,
 h1 {
@@ -98,6 +98,7 @@ h1 {
 .container2 {
   margin: 100px;
   margin-top: 150px;
+  animation: run 5s;
 }
 
 .what_is_tickyBot {
@@ -109,6 +110,7 @@ h1 {
   font-size: 20px;
   margin: 100px;
   margin-bottom: 0;
+  animation: run 3s;
 }
 
 .container3 {
@@ -139,6 +141,7 @@ h1 {
   padding-top: 0px;
   margin-left: 20%;
   margin-right: 20%;
+  animation: run 3s;
 }
 
 .light-green {
@@ -192,6 +195,7 @@ h1 {
 }
 .how_it_worksA {
   text-align: center;
+  animation: run 3s;
 }
 
 .special-characters {
@@ -219,7 +223,6 @@ h1 {
 .last-section1A {
   text-align: center;
   margin-top: 50px;
-  animation: ;
 }
 
 .last-section2 {
@@ -306,11 +309,26 @@ h1 {
   color: blue;
   cursor: pointer;
 }
+
+#one {
+  animation: run 3s timing-function delay iteration-count direction fill-mode;
+}
+#two {
+  animation: run 9s;
+}
+
+#three {
+  animation: run 15s;
+}
+
 @keyframes run {
-  0% {
-    transform: translateZ(0);
+  from {
+    opacity: 0;
+    transform: translateY(-10);
   }
-  100% {
-    transform: translateZ(100px);
+
+  to {
+    opacity: 2;
+    transform: translateY(0);
   }
 }
